@@ -47,36 +47,21 @@ public class CreateChannelRabbitMql : ICreateChannelRabbitMql
             _channel = _connection.CreateModel();
 
             _channel.ExchangeDeclare(
-                exchange: EventConstants.CREATE_DOCTOR_EXCHANGE,
+                exchange: EventConstants.CREATE_USER_EXCHANGE,
                 type: ExchangeType.Direct);
 
             _channel.QueueDeclare(
-                queue: EventConstants.CREATE_DOCTOR_QUEUE,
+                queue: EventConstants.CREATE_USER_QUEUE,
                 durable: false,
                 exclusive: false,
                 autoDelete: false,
                 arguments: null);
 
             _channel.QueueBind(
-                exchange: EventConstants.CREATE_DOCTOR_EXCHANGE,
-                queue: EventConstants.CREATE_DOCTOR_QUEUE,
+                exchange: EventConstants.CREATE_USER_EXCHANGE,
+                queue: EventConstants.CREATE_USER_QUEUE,
             routingKey: string.Empty);
 
-            _channel.ExchangeDeclare(
-               exchange: EventConstants.CREATE_PATIENT_EXCHANGE,
-               type: ExchangeType.Direct);
-
-            _channel.QueueDeclare(
-                queue: EventConstants.CREATE_PATIENT_QUEUE,
-                durable: false,
-                exclusive: false,
-                autoDelete: false,
-                arguments: null);
-
-            _channel.QueueBind(
-                exchange: EventConstants.CREATE_PATIENT_EXCHANGE,
-                queue: EventConstants.CREATE_PATIENT_QUEUE,
-            routingKey: string.Empty);
         }
         catch (Exception ex)
         {

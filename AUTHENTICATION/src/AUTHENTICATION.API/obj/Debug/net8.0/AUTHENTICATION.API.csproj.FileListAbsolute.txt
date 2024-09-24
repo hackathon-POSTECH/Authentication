@@ -148,3 +148,4 @@ D:\Health&Med\AUTHENTICATION\AUTHENTICATION\src\AUTHENTICATION.API\bin\Debug\net
 D:\Health&Med\AUTHENTICATION\AUTHENTICATION\src\AUTHENTICATION.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Health&Med\AUTHENTICATION\AUTHENTICATION\src\AUTHENTICATION.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 D:\Health&Med\AUTHENTICATION\AUTHENTICATION\src\AUTHENTICATION.API\bin\Debug\net8.0\RabbitMQ.Client.dll
+D:\Health&Med\AUTHENTICATION\AUTHENTICATION\src\AUTHENTICATION.API\obj\Debug\net8.0\AUTHENTICATION.API.sourcelink.json

@@ -23,11 +23,7 @@ public class CreateUserCommandHandler : IRequestHandler<CreateUserCommand, Creat
         var result = await _userManager.CreateAsync(user, request.Password);
         if (result.Succeeded)
         {
-            if (!string.IsNullOrEmpty(request.Crm))
-                _publishRabbitMqService.Publish<EventCreateDoctorModel>(EventCreateDoctorModel.ToEvent(user, request.Crm));
-            else
-                _publishRabbitMqService.Publish<EventCreatePatientModel>(EventCreatePatientModel.ToEvent(user));
-
+            _publishRabbitMqService.Publish<EventCreateUserModel>(EventCreateUserModel.ToEvent(user, request.Crm));
             return CreateUserResponse.ToResponse(user);
 
 
