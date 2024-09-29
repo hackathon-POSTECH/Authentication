@@ -1,7 +1,9 @@
 using AUTHENTICATION.API.Configuration;
+using AUTHENTICATION.APPLICATION.Authentication.CreateUser;
 using AUTHENTICATION.DOMAIN;
 using AUTHENTICATION.INFRA.context;
 using AUTHENTICATION.INFRA.RabbitMq;
+using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +17,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 
+builder.Services.AddTransient<IValidator<CreateUserCommand>, CreateUserCommandValidator>();
+builder.Services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
 builder.Services.AddSwaggerGen(options =>
 {
