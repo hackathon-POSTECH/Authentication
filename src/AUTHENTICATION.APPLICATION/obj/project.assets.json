@@ -3299,23 +3299,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mathe\\.nuget\\packages\\": {},
+    "C:\\Users\\marlo\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.APPLICATION\\AUTHENTICATION.APPLICATION.csproj",
+      "projectUniqueName": "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.APPLICATION\\AUTHENTICATION.APPLICATION.csproj",
       "projectName": "AUTHENTICATION.APPLICATION",
-      "projectPath": "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.APPLICATION\\AUTHENTICATION.APPLICATION.csproj",
-      "packagesPath": "C:\\Users\\mathe\\.nuget\\packages\\",
-      "outputPath": "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.APPLICATION\\obj\\",
+      "projectPath": "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.APPLICATION\\AUTHENTICATION.APPLICATION.csproj",
+      "packagesPath": "C:\\Users\\marlo\\.nuget\\packages\\",
+      "outputPath": "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.APPLICATION\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\mathe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\marlo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3324,18 +3324,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Projetos\\ShopDelivery\\ShopDelivery\\src\\SHOPDELIVERY.INFRASTRUCTURE": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.DOMAIN\\AUTHENTICATION.DOMAIN.csproj": {
-              "projectPath": "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.DOMAIN\\AUTHENTICATION.DOMAIN.csproj"
+            "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.DOMAIN\\AUTHENTICATION.DOMAIN.csproj": {
+              "projectPath": "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.DOMAIN\\AUTHENTICATION.DOMAIN.csproj"
             },
-            "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.INFRA\\AUTHENTICATION.INFRA.csproj": {
-              "projectPath": "D:\\Health&Med\\AUTHENTICATION\\AUTHENTICATION\\src\\AUTHENTICATION.INFRA\\AUTHENTICATION.INFRA.csproj"
+            "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.INFRA\\AUTHENTICATION.INFRA.csproj": {
+              "projectPath": "D:\\Hackathon\\Authentication\\src\\AUTHENTICATION.INFRA\\AUTHENTICATION.INFRA.csproj"
             }
           }
         }
@@ -3384,7 +3384,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
